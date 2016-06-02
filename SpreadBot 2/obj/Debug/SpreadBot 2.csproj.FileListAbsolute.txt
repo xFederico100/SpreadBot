@@ -1,0 +1,16 @@
+c:\users\fede\documents\visual studio 2013\Projects\SpreadBot 2\SpreadBot 2\bin\Debug\SpreadBot 2.exe.config
+c:\users\fede\documents\visual studio 2013\Projects\SpreadBot 2\SpreadBot 2\bin\Debug\SpreadBot 2.exe
+c:\users\fede\documents\visual studio 2013\Projects\SpreadBot 2\SpreadBot 2\bin\Debug\SpreadBot 2.pdb
+c:\users\fede\documents\visual studio 2013\Projects\SpreadBot 2\SpreadBot 2\obj\Debug\SpreadBot_2.Form1.resources
+c:\users\fede\documents\visual studio 2013\Projects\SpreadBot 2\SpreadBot 2\obj\Debug\SpreadBot_2.Properties.Resources.resources
+c:\users\fede\documents\visual studio 2013\Projects\SpreadBot 2\SpreadBot 2\obj\Debug\SpreadBot 2.csproj.GenerateResource.Cache
+c:\users\fede\documents\visual studio 2013\Projects\SpreadBot 2\SpreadBot 2\obj\Debug\SpreadBot 2.exe
+c:\users\fede\documents\visual studio 2013\Projects\SpreadBot 2\SpreadBot 2\obj\Debug\SpreadBot 2.pdb
+c:\users\fede\documents\visual studio 2013\Projects\SpreadBot 2\SpreadBot 2\bin\Debug\MetroFramework.dll
+c:\users\fede\documents\visual studio 2013\Projects\SpreadBot 2\SpreadBot 2\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Fede\documents\visual studio 2013\Projects\SpreadBot 2\SpreadBot 2\bin\Debug\Skype4Sharp.dll
+C:\Users\Fede\documents\visual studio 2013\Projects\SpreadBot 2\SpreadBot 2\bin\Debug\MaterialDesignColors.dll
+C:\Users\Fede\documents\visual studio 2013\Projects\SpreadBot 2\SpreadBot 2\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Fede\documents\visual studio 2013\Projects\SpreadBot 2\SpreadBot 2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Fede\documents\visual studio 2013\Projects\SpreadBot 2\SpreadBot 2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Fede\documents\visual studio 2013\Projects\SpreadBot 2\SpreadBot 2\obj\Debug\SpreadBot 2.csprojResolveAssemblyReference.cache
