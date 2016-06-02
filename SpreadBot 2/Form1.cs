@@ -26,6 +26,12 @@ namespace SpreadBot_2
             InitializeComponent();
         }
 
+        private static void mainSkype_contactRequestReceived(ContactRequest sentRequest)
+        {
+            Thread.Sleep(10000);
+            sentRequest.Accept();
+        }
+
         static Skype4Sharp.Skype4Sharp mainSkype;
         private void buttonBlue1_Click(object sender, EventArgs e)
         {
@@ -35,6 +41,8 @@ namespace SpreadBot_2
                 mainSkype = new Skype4Sharp.Skype4Sharp(authCreds);
                 mainSkype.Login();
                 mainSkype.StartPoll();
+                mainSkype.contactRequestReceived += mainSkype_contactRequestReceived;
+                mainSkype.messageReceived += mainSkype_messageReceived;
                 MessageBox.Show("Logged in!");
             } 
             catch
@@ -47,19 +55,13 @@ namespace SpreadBot_2
             }
         }
 
-        private static void MainSkype_contactRequestReceived(ContactRequest sentRequest, ChatMessage pMessage)
-        {
-            Thread.Sleep(10000);
-            sentRequest.Accept();
-        }
-
         public static void CreateEmptyFile(string filename)
         {
             File.Create(filename).Dispose();
         }
 
 
-        private static void MainSkype_messageReceived(ChatMessage pMessage, Chat targetChat)
+        private static void mainSkype_messageReceived(ChatMessage pMessage)
         {
             new Thread(() =>
             {
