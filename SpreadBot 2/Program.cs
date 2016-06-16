@@ -14,6 +14,10 @@ namespace SpreadBot_2
         [STAThread]
         static void Main()
         {
+            /*
+             * Gestisce in background
+             * l'environment.
+             */
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
